@@ -1,0 +1,93 @@
+*{transition: all .1s ease-in;}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+html,body{
+	height: 100%;
+	margin: 0;
+	border: 15px solid rgb(43,129,172);
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #fff;
+	background-color: rgb(51, 153, 204);
+}
+h1{
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	width: 70%;
+}
+p{
+	margin: 0; padding-bottom: 10px;
+}
+span{
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	width: 70%;
+}
+.allWeathers{
+	width: 70%;
+	margin: 0px auto;
+	border: 2px solid #fff;
+	list-style-type: none;
+	font-size: 0;
+	text-align: center;
+	padding: 0;
+}
+.allWeathers li{
+	display: inline-block;
+	font-size: 18px;
+	border: 2px solid white;
+	padding: 20px 5px 20px 5px;
+}
+
+ul:hover li:not(:hover){
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+/* Sizes */
+.small{
+	width: 25%;
+}
+.medium{
+	width: 50%;
+}
+.large{
+	width: 100%;
+}
+
+/* Colors */
+.colorCyan{
+	background-color: rgb(51,204,204);
+}
+.colorPurple{
+	background-color: rgb(153,102,153);
+}
+.colorRed{
+	background-color: rgb(194,71,71);
+}
+.colorOrange{
+	background-color: rgb(226,103,74);
+}
+.colorYellow{
+	background-color: rgb(255,204,102);
+}
+.colorLightGreen{
+	background-color: rgb(153,204,153);
+}
+.colorDarkGreen{
+	background-color: rgb(102,153,153);
+}
+.colorPink{
+	background-color: rgb(204,102,153);
+}
+.colorGreen{
+	background-color: rgb(51,153,102);
+}
+.colorDark{
+	background-color: rgb(102,102,153);
+}
